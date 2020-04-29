@@ -1,9 +1,5 @@
 # Bad Smells Detector
-<img src="/demo/1.jpeg" width="15%"/>
-<img src="/demo/2.jpeg" width="15%"/>
-<img src="/demo/3.jpeg" width="15%"/>
-<img src="/demo/4.jpeg" width="15%"/>
-<img src="/demo/5.jpeg" width="15%"/>
+<img src="/demo/1.jpeg" height="100px"/> <img src="/demo/2.jpeg" height="100px"/> <img src="/demo/3.jpeg" height="100px"/> <img src="/demo/4.jpeg" height="100px"/> <img src="/demo/5.jpeg" height="100px"/>
 
 ### Description:
 A real-time indicator for bed smells which has 3 states:
