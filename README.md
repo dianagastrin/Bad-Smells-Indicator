@@ -3,11 +3,13 @@
 
 ### Description:
 A real-time indicator for bed smells which has 3 states:
-1. <font color="green">Green</font>
-2. <font color="orange">Orange</font>
-3. <font color="red">Red</font>
+```diff
++ Green
+! Orange
+- Red
+```
 
-When it's <font color="red">Red</font>, you don't want to go to the bathroom...
+When it's Red, you don't want to go to the bathroom...
 
 ### Calibration:
 1. **short** press on the button defines the value for a "good" smell
@@ -23,20 +25,10 @@ When it's <font color="red">Red</font>, you don't want to go to the bathroom...
 - 3 Leds (Green, Oragne, Red)
 - capacitors, resistors and wires
 - programmer: [PIC Programmer K150](https://www.ebay.com/itm/PIC-Programmer-K150-USB-Automatic-Microchip-Develop-Microcontroller-ICSP-Cable/252710962515?hash=item3ad6bf4553:g:rG4AAOSw2xRYbh9x) 
+- Software:
+  - C language
+  - programmer software: `DIY K150 PICmicro Programmer v150807` 
+  - IDE: `MPLAB X IDE V5.25 by Microchip (XC8)`
 
-#### Software:
-- programmer software: `DIY K150 PICmicro Programmer v150807` 
-- IDE: `MPLAB X IDE V5.25 by Microchip (XC8)`
 
-### Result:
-
-![](demo/5.jpeg)
-
-![](demo/1.jpeg )
-
-![](demo/2.jpeg)
-
-![](demo/3.jpeg)
-
-![](demo/4.jpeg)
-
+<img src="/demo/5.jpeg" height="600px"/>
