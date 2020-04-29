@@ -29,7 +29,5 @@ When it's Red, you don't want to go to the bathroom...
   - programmer software: `DIY K150 PICmicro Programmer v150807` 
   - IDE: `MPLAB X IDE V5.25 by Microchip (XC8)`
 
-[![Demo](/demo/detector_vid_placeholder.jpeg)](/demo/detector_vid.mp4)
-
 <img src="/demo/5.jpeg" height="600px"/>
 
