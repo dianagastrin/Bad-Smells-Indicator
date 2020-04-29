@@ -11,12 +11,12 @@ A real-time indicator for bed smells which has 3 states:
 When it's Red, you don't want to go to the bathroom...
 
 ### Calibration:
-1. **short** press on the button defines the value for a "good" smell
+1. **short press** on the button defines the value for a "good" smell
 2. **long press** defines "bad" smell.
 3. **10 sec press** will go back to default.
 
 ### Consist of:
-- 1 Microcontroller: [PIC12F683](https://ww1.microchip.com/downloads/en/devicedoc/41211d_.pdf)
+- 1 Micro-controller: [PIC12F683](https://ww1.microchip.com/downloads/en/devicedoc/41211d_.pdf)
 - 1 Methan gas sensor: [MQ4](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf)
 - 1 Push Button
 - 1 Regulator: [L7805](https://www.st.com/resource/en/datasheet/l78.pdf)
