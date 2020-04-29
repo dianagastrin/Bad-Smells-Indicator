@@ -3,11 +3,10 @@
 
 ### Description:
 A real-time indicator for bed smells which has 3 states:
-```diff
-+ Green
-! Orange
-- Red
-```
+1. ![#90EE90](https://placehold.it/15/90EE90/000000?text=+) `green`
+2. ![#FFA500](https://placehold.it/15/FFA500/000000?text=+) `orange`
+2. ![#FF0000](https://placehold.it/15/FF0000/000000?text=+) `red`
+
 
 When it's Red, you don't want to go to the bathroom...
 
@@ -30,5 +29,7 @@ When it's Red, you don't want to go to the bathroom...
   - programmer software: `DIY K150 PICmicro Programmer v150807` 
   - IDE: `MPLAB X IDE V5.25 by Microchip (XC8)`
 
+[![Demo](/demo/detector_vid_placeholder.jpeg)](/demo/detector_vid.mp4)
 
 <img src="/demo/5.jpeg" height="600px"/>
+
