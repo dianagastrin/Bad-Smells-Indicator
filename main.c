@@ -38,8 +38,8 @@ const unsigned char MAX_ADDR_START = 2;
 
 unsigned int value = 0;
 
-// initialize eeprom
-__eeprom char calData[8] = {0x00, 0x00, 0x03, 0xFF};
+// initialize eeprom once
+__eeprom char calData[4] = {0x00, 0x00, 0x03, 0xFF};
 
 unsigned int min;
 unsigned int max;
