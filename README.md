@@ -3,9 +3,9 @@
 
 ### Description:
 A real-time indicator for bed smells which has 3 states:
-1. ![#90EE90](https://placehold.it/15/90EE90/000000?text=+) `green`
+1. ![#FF0000](https://placehold.it/15/FF0000/000000?text=+) `red`
 2. ![#FFA500](https://placehold.it/15/FFA500/000000?text=+) `orange`
-2. ![#FF0000](https://placehold.it/15/FF0000/000000?text=+) `red`
+3. ![#90EE90](https://placehold.it/15/90EE90/000000?text=+) `green`
 
 
 When it's Red, you don't want to go to the bathroom...
