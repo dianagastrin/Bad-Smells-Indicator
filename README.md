@@ -1,4 +1,4 @@
-# Bad Smells Detector
+# Bad Smells Indicator
 <img src="/demo/1.jpeg" height="100px"/> <img src="/demo/2.jpeg" height="100px"/> <img src="/demo/3.jpeg" height="100px"/> <img src="/demo/4.jpeg" height="100px"/> <img src="/demo/5.jpeg" height="100px"/>
 
 ### Description:
