@@ -15,7 +15,7 @@ When it's Red, you don't want to go to the bathroom...
 2. **long press** defines "bad" smell.
 3. **10 sec press** will go back to defaults.
 
-### Consist of:
+### Consists of:
 - 1 Micro-controller: [PIC12F683](https://ww1.microchip.com/downloads/en/devicedoc/41211d_.pdf)
 - 1 Methan gas sensor: [MQ4](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf)
 - 1 Push Button
