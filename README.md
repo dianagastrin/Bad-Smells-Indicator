@@ -1,33 +1,59 @@
-# Bad Smells Indicator
-<img src="/demo/1.jpeg" height="100px"/> <img src="/demo/2.jpeg" height="100px"/> <img src="/demo/3.jpeg" height="100px"/> <img src="/demo/4.jpeg" height="100px"/> <img src="/demo/5.jpeg" height="100px"/>
+# Bad Smells Indicator AKA Pookimeter
+#### Pookimeter V1
+<img src="/Resources/v1_1.jpeg" height="100px"/> 
 
-### Description:
+#### Pookimeter V2
+<img src="/Resources/v2_1.jpeg" height="100px"/> <img src="/Resources/v2_2.jpeg" height="100px"/> <img src="/demo/v2_3.jpeg" height="100px"/> <img src="/demo/v2_4.jpeg" height="100px"/> <img src="/demo/v2_5.jpeg" height="100px"/>
+
+#### Pookimeter V3
+<img src="/Resources/v3_1.jpeg" height="100px"/><img src="/Resources/v3_2.jpeg" height="100px"/><img src="/Resources/v3_3.jpeg" height="100px"/>
+
+## Description:
 A real-time indicator for bed smells which has 3 states:
-1. ![#FF0000](https://placehold.it/15/FF0000/000000?text=+) `red`
-2. ![#FFA500](https://placehold.it/15/FFA500/000000?text=+) `orange`
-3. ![#90EE90](https://placehold.it/15/90EE90/000000?text=+) `green`
+```diff
+- RED
+! ORANGE
++ GREEN
 
+```
+When it's Red, you don't want to go into the bathroom...
 
-When it's Red, you don't want to go to the bathroom...
+## Calibration:
 
-### Calibration:
-1. **short press** on the button defines the value for a "good" smell
-2. **long press** defines "bad" smell.
-3. **10 sec press** will go back to defaults.
+Press on the button and it will enter calibration mode. 
+It will try to find `min` and `max` values for sensor signal during the calibration. 
+Exit the calibration mode by pressing on the button again.
 
-### Consists of:
-- 1 Micro-controller: [PIC12F683](https://ww1.microchip.com/downloads/en/devicedoc/41211d_.pdf)
-- 1 Methane gas sensor: [MQ4](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf)
-- 1 Push Button
-- 1 Regulator: [L7805](https://www.st.com/resource/en/datasheet/l78.pdf)
-- 1 Matrix
-- 3 Leds (Green, Orange, Red)
-- capacitors, resistors and wires
+### Code parts
+  - IDE: [MPLAB X IDE](https://www.microchip.com/en-us/tools-resources/develop/mplab-x-ide)
+  - Compiler: [MPLAB XC8 Compiler](https://www.microchip.com/en-us/tools-resources/develop/mplab-xc-compilers)
+  - SRC code in [ChipCode](ChipCode) folder
+  
+### Hardware parts
+  - [PIC12F683 Microcontroller](https://ww1.microchip.com/downloads/en/devicedoc/41211d_.pdf)
+  - [Push Button](https://www.aliexpress.com/item/1005003400929705.html?spm=a2g0o.order_list.0.0.79b31802wwf9ee)
+  - [USB 2.0 connector](https://www.aliexpress.com/item/32265708803.html?spm=a2g0o.order_list.0.0.79b31802wwf9ee)
+  - [Methane gas sensor MQ4](https://www.sparkfun.com/datasheets/Sensors/Biometric/MQ-4.pdf)
+  - Breadboard
+  - 3 Leds (Green, Orange, Red) and resistors (220 Ohm)
+  - Wires
+
+### Burn the code
+- Programmer [PIC Programmer K150](https://www.ebay.com/itm/PIC-Programmer-K150-USB-Automatic-Microchip-Develop-Microcontroller-ICSP-Cable/252710962515?hash=item3ad6bf4553:g:rG4AAOSw2xRYbh9x) 
+- Programmer driver [DIY K150 PICmicro Programmer v150807](https://buyhere22.com/components/k150/) 
+
+### Debug 
+- General Purpose USB to GPIO [MCP221A](https://www.adafruit.com/product/4471])
+- Must set `DEBUG=1` in [main.c](ChipCode/main.c)
+- Python debugging code [main.py](DebugPython/main.py)
+
+### Resources
+- [Presentation](Resources/SmellsLikeChips.pdf)
+- Printed Circuit Board file [Gerber File](Resources/GerberFile.zip)
+
+### Burn code
 - programmer: [PIC Programmer K150](https://www.ebay.com/itm/PIC-Programmer-K150-USB-Automatic-Microchip-Develop-Microcontroller-ICSP-Cable/252710962515?hash=item3ad6bf4553:g:rG4AAOSw2xRYbh9x) 
 - Software:
   - C language
   - programmer software: `DIY K150 PICmicro Programmer v150807` 
   - IDE: `MPLAB X IDE V5.25 by Microchip (XC8)`
-
-<img src="/demo/5.jpeg" height="600px"/>
-
