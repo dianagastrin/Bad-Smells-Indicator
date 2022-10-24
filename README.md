@@ -1,12 +1,12 @@
 # Bad Smells Indicator AKA Pookimeter
 #### Pookimeter V1
-<img src="/Resources/v1_1.jpeg" height="100px"/> 
+<img src="/Resources/v1.jpg" height="100px"/> 
 
 #### Pookimeter V2
-<img src="/Resources/v2_1.jpeg" height="100px"/> <img src="/Resources/v2_2.jpeg" height="100px"/> <img src="/demo/v2_3.jpeg" height="100px"/> <img src="/demo/v2_4.jpeg" height="100px"/> <img src="/demo/v2_5.jpeg" height="100px"/>
+<img src="/Resources/v2_1.jpeg" height="100px"/> <img src="/Resources/v2_2.jpeg" height="100px"/> <img src="/demo/v2_3.jpg" height="100px"/> <img src="/demo/v2_4.jpg" height="100px"/> <img src="/demo/v2_5.jpeg" height="100px"/>
 
 #### Pookimeter V3
-<img src="/Resources/v3_1.jpeg" height="100px"/><img src="/Resources/v3_2.jpeg" height="100px"/><img src="/Resources/v3_3.jpeg" height="100px"/>
+<img src="/Resources/v3_1.png" height="100px"/><img src="/Resources/v3_2.png" height="100px"/><img src="/Resources/v3_3.png" height="100px"/>
 
 ## Description:
 A real-time indicator for bed smells which has 3 states:
