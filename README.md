@@ -3,7 +3,7 @@
 <img src="/Resources/v1.jpg" height="100px"/> 
 
 #### Pookimeter V2
-<img src="/Resources/v2_1.jpeg" height="100px"/> <img src="/Resources/v2_2.jpeg" height="100px"/> <img src="/demo/v2_3.jpg" height="100px"/> <img src="/demo/v2_4.jpg" height="100px"/> <img src="/demo/v2_5.jpeg" height="100px"/>
+<img src="/Resources/v2_1.jpeg" height="100px"/> <img src="/Resources/v2_2.jpeg" height="100px"/> <img src="/Resources/v2_3.jpg" height="100px"/> <img src="/Resources/v2_4.jpg" height="100px"/> <img src="/Resources/v2_5.jpeg" height="100px"/>
 
 #### Pookimeter V3
 <img src="/Resources/v3_1.png" height="100px"/><img src="/Resources/v3_2.png" height="100px"/><img src="/Resources/v3_3.png" height="100px"/>
