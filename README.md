@@ -9,7 +9,7 @@
 <img src="/Resources/v3_1.png" height="100px"/><img src="/Resources/v3_2.png" height="100px"/><img src="/Resources/v3_3.png" height="100px"/>
 
 ## Description:
-A real-time indicator for bed smells which has 3 states:
+A real-time indicator for bad smells which has 3 states:
 ```diff
 - RED
 ! ORANGE
