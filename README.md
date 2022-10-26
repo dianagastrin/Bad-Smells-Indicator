@@ -50,10 +50,3 @@ Exit the calibration mode by pressing on the button again.
 ### Resources
 - [Presentation](Resources/SmellsLikeChips.pdf)
 - Printed Circuit Board file [Gerber File](Resources/GerberFile.zip)
-
-### Burn code
-- programmer: [PIC Programmer K150](https://www.ebay.com/itm/PIC-Programmer-K150-USB-Automatic-Microchip-Develop-Microcontroller-ICSP-Cable/252710962515?hash=item3ad6bf4553:g:rG4AAOSw2xRYbh9x) 
-- Software:
-  - C language
-  - programmer software: `DIY K150 PICmicro Programmer v150807` 
-  - IDE: `MPLAB X IDE V5.25 by Microchip (XC8)`
