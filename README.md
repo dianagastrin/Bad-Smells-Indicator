@@ -48,5 +48,5 @@ Exit the calibration mode by pressing on the button again.
 - Python debugging code [main.py](DebugPython/main.py)
 
 ### Resources
-- [Presentation](Resources/SmellsLikeChips.pdf)
+- [Presentation](https://speakerdeck.com/dgastrin123/mmm-dot-dot-dot-smells-like-chips)
 - Printed Circuit Board file [Gerber File](Resources/GerberFile.zip)
